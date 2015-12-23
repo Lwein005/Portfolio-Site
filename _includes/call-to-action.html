@@ -3,7 +3,15 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h3>Contact me</h3>
-        <a href="#" class="btn btn-lg btn-light">Submit</a>
+        <a href="#" class="btn btn-lg btn-light">Email</a>
+        <a href="#" class="btn btn-lg btn-dark">Look at Me!</a>
+        <form action="https://<YOUR_HEROKU_APP>.herokuapp.com/send">
+            Email: <input type="text" name="name"><br>
+            Name: <input type="text" name="email"><br>
+            Subject: <input type="text" name="subject"><br>
+            Message: <textarea name="message" cols="40" rows="5"></textarea>
+        <input type="submit" value="Send Message">
+        </form>
       </div>
     </div>
   </div>
